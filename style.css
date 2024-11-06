@@ -1,0 +1,54 @@
+/* importation de la police 'Poppins' de Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;500;600;700;900&display=swap');
+
+/* Style de base pour la page */
+html, body {
+   font-family: 'Poppins', sans-serif;
+   background-color: #e8e4e4; /* Fond Blanc */
+   color: #111111; /* Blanc cassé pour un contraste doux */
+   margin: 0;
+   padding: 0;
+   
+}
+
+
+/* Conteneur des produits pour les aligner en ligne */
+#products {
+   display: flex;
+   justify-content: center;
+   flex-wrap: wrap; /* Permet aux images de se réorganiser si nécessaire */
+   gap: 20px; /* Espace entre les produits */
+   padding: 5px;
+}
+
+/* Style des titres pour une touche spirituelle */
+h2, h3 {
+   color: #000000; /* Noir pour les titres */
+   text-transform: uppercase;
+   letter-spacing: 1px;
+   text-align: center;
+   margin-bottom: 10px;
+}
+l
+
+/* Style des cartes produits */
+.product {
+   background-color: rgba(56, 41, 53, 0.1); /* Fond semi-transparent pour chaque produit */
+   padding: 10px;
+   border-radius: 8px; /* Coins arrondis */
+   text-align: center;
+   width: 200px;
+}
+
+/* Images des produits */
+.product img {
+   max-width: 150px; /* Taille maximale pour les images */
+   height: auto; /* Maintient les proportions */
+   margin-bottom: 10px;
+   border: 2px solid #f4d03f; /* Bordure dorée pour ajouter du style */
+}
+
+
+
+
+
